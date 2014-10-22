@@ -1,0 +1,32 @@
+
+Microservices - Not A Free Lunch!
+http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html
+
+4Finance Microservices pilot project presentation: 
+https://www.youtube.com/watch?v=f_fGwa2-rMk&list=UUwAKjrTAPEbBzJ-tSWwGPMQ
+
+Chris Richardson
+http://www.slideshare.net/chris.e.richardson/building-apps-with-microservices-svcc-2014
+
+
+Book to read
+http://www.amazon.com/The-Art-Scalability-Architecture-Organizations/dp/0137030428
+
+FeatureToggle
+http://martinfowler.com/bliki/FeatureToggle.html
+
+
+NoSQL to learn
+ 1) ConcurrentHashMap - how to work, ReadWriteLock
+
+ 2) http://vimeo.com/43903960 - Eventually Consistent Data Structures
+
+ 3) http://en.wikipedia.org/wiki/Bloom_filter
+
+ 4) http://www.slideshare.net/m0nstermind/being-closerto-cassandrasummiteunoani
+
+ http://www.slideshare.net/m0nstermind/java-13078132?related=1
+
+ http://jug.lv/post/19901341207/speakers
+
+ 

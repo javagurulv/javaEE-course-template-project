@@ -1,0 +1,18 @@
+TODO list
+
+1) create separate Maven module for JMX example
+JMXConfig, JMXTestMBean
+
+2) integrate MongoDB to Spring app
+
+3) move project to GitHub
+
+3.1) after moving to GitHub - add standart .gitignore file to project
+  
+4) add FeatureToggle examples
+       http://martinfowler.com/bliki/FeatureToggle.html
+
+5) add Camel processing examples
+
+6) add JMS examples
+
