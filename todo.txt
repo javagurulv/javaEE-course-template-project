@@ -1,14 +1,10 @@
 TODO list
 
-1) create separate Maven module for JMX example
-JMXConfig, JMXTestMBean
+1) integrate MongoDB to Spring app
 
-2) integrate MongoDB to Spring app
-
-3) add FeatureToggle examples
+2) add FeatureToggle examples
        http://martinfowler.com/bliki/FeatureToggle.html
 
-4) add Camel processing examples
+3) add Camel processing examples
 
-5) add JMS examples
-
+4) add JMS examples
