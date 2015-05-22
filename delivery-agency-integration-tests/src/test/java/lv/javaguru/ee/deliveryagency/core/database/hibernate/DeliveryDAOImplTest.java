@@ -1,17 +1,13 @@
 package lv.javaguru.ee.deliveryagency.core.database.hibernate;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
-
+import lv.javaguru.ee.deliveryagency.core.domain.Delivery;
 import org.junit.Test;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 
-import lv.javaguru.ee.deliveryagency.core.domain.Delivery;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
-/**
- * Created by Viktor on 03/08/2014.
- */
 public class DeliveryDAOImplTest extends DatabaseHibernateTest {
 
     @Test

@@ -2,9 +2,6 @@ package lv.javaguru.ee.deliveryagency.core.database;
 
 import java.util.List;
 
-/**
- * Created by Viktor on 23/05/2014.
- */
 public interface CRUDOperationDAO<E, K> {
 
     void create(E entity);

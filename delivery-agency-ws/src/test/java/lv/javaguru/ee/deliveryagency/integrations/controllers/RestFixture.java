@@ -8,9 +8,6 @@ import lv.javaguru.ee.deliveryagency.integrations.resourses.ClientResourceImpl;
 import lv.javaguru.ee.deliveryagency.integrations.resourses.DeliveryResource;
 import lv.javaguru.ee.deliveryagency.integrations.resourses.DeliveryResourceImpl;
 
-/**
- * Created by Viktor on 16/09/2014.
- */
 public class RestFixture {
 
     private static DeliveryResource deliveryResource = createDeliveryResource();

@@ -10,9 +10,6 @@ import org.springframework.stereotype.Component;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * Created by Viktor on 15/09/2014.
- */
 @Component
 public class GetDeliveryCommandHandler
         implements DomainCommandHandler<GetDeliveryCommand, GetDeliveryResult> {

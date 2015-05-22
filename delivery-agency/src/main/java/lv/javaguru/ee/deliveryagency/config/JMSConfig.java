@@ -6,9 +6,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Created by Viktor on 07/10/2014.
- */
 @Configuration
 public class JMSConfig {
 

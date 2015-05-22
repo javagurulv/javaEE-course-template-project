@@ -10,9 +10,6 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
-/**
- * Created by Viktor on 07/09/2014.
- */
 @Configuration
 public class DataSourceConfig {
 

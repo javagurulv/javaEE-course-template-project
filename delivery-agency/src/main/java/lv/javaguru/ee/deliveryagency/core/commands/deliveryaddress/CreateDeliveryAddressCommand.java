@@ -2,9 +2,6 @@ package lv.javaguru.ee.deliveryagency.core.commands.deliveryaddress;
 
 import lv.javaguru.ee.deliveryagency.core.commands.DomainCommand;
 
-/**
- * Created by Viktor on 27/07/2014.
- */
 public class CreateDeliveryAddressCommand implements DomainCommand {
 
 	private Long deliveryId;

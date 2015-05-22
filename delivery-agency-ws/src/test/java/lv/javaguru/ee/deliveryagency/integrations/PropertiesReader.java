@@ -3,9 +3,6 @@ package lv.javaguru.ee.deliveryagency.integrations;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * Created by Viktor on 19/09/2014.
- */
 public class PropertiesReader {
 
     private static final String PROPERTY_FILE = "server.properties";

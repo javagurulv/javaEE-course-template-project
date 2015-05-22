@@ -9,9 +9,6 @@ import lv.javaguru.ee.deliveryagency.core.commands.delivery.CreateDeliveryComman
 import lv.javaguru.ee.deliveryagency.core.database.DeliveryDAO;
 import lv.javaguru.ee.deliveryagency.core.domain.Delivery;
 
-/**
- * Created by Viktor on 08/09/2014.
- */
 @Component
 public class CreateDeliveryCommandHandler
         implements DomainCommandHandler<CreateDeliveryCommand, CreateDeliveryResult> {

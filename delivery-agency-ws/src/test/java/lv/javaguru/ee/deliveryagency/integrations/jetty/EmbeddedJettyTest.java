@@ -4,9 +4,6 @@ import lv.javaguru.ee.deliveryagency.integrations.PropertiesReader;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
-/**
- * Created by Viktor on 16/09/2014.
- */
 public class EmbeddedJettyTest {
 
     private static EmbeddedJetty jettyServer;

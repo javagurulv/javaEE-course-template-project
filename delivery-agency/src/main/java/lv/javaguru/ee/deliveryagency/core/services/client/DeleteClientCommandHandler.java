@@ -12,9 +12,6 @@ import org.springframework.stereotype.Component;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * Created by Viktor on 05/10/2014.
- */
 @Component
 public class DeleteClientCommandHandler
         implements DomainCommandHandler<DeleteClientCommand, DeleteClientResult> {

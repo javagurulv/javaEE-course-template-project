@@ -1,21 +1,17 @@
 package lv.javaguru.ee.deliveryagency.core.services.deliveryaddress;
 
-import static com.google.common.base.Preconditions.*;
-
-import lv.javaguru.ee.deliveryagency.core.services.DomainCommandHandler;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import lv.javaguru.ee.deliveryagency.core.commands.deliveryaddress.CreateDeliveryAddressCommand;
 import lv.javaguru.ee.deliveryagency.core.commands.deliveryaddress.CreateDeliveryAddressResult;
 import lv.javaguru.ee.deliveryagency.core.database.DeliveryAddressDAO;
 import lv.javaguru.ee.deliveryagency.core.database.DeliveryDAO;
 import lv.javaguru.ee.deliveryagency.core.domain.Delivery;
 import lv.javaguru.ee.deliveryagency.core.domain.DeliveryAddress;
+import lv.javaguru.ee.deliveryagency.core.services.DomainCommandHandler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-/**
- * Created by Viktor on 27/07/2014.
- */
+import static com.google.common.base.Preconditions.checkNotNull;
+
 @Component
 public class CreateDeliveryAddressCommandHandler
         implements DomainCommandHandler<CreateDeliveryAddressCommand, CreateDeliveryAddressResult> {

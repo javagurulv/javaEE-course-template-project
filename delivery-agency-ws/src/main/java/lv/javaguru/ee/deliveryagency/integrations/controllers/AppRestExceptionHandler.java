@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-/**
- * Created by Viktor on 15/09/2014.
- */
 @ControllerAdvice
 public class AppRestExceptionHandler extends ResponseEntityExceptionHandler {
 

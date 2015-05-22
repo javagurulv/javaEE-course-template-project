@@ -1,20 +1,8 @@
 package lv.javaguru.ee.deliveryagency.core.domain;
 
+import javax.persistence.*;
 import java.util.Date;
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
 
-/**
- * Created by Viktor on 26/07/2014.
- */
 @Entity
 @Table(name="deliveryInfos")
 public class DeliveryInfo {

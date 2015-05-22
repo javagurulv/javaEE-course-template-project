@@ -11,9 +11,6 @@ import org.springframework.stereotype.Component;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * Created by Viktor on 16/09/2014.
- */
 @Component
 public class GetClientCommandHandler
         implements DomainCommandHandler<GetClientCommand, GetClientResult> {

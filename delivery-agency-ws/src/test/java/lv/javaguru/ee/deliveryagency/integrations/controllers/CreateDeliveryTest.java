@@ -1,16 +1,13 @@
 package lv.javaguru.ee.deliveryagency.integrations.controllers;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
-
-import org.junit.Test;
-
 import lv.javaguru.ee.deliveryagency.integrations.domain.DeliveryDTO;
 import lv.javaguru.ee.deliveryagency.integrations.jetty.EmbeddedJettyTest;
+import org.junit.Test;
 
-/**
- * Created by Viktor on 15/09/2014.
- */
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class CreateDeliveryTest extends EmbeddedJettyTest {
 
     @Test

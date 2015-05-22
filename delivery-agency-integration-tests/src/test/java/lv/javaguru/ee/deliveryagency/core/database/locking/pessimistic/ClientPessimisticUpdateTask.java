@@ -15,9 +15,6 @@ import java.util.concurrent.Callable;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * Created by Viktor on 06/09/2014.
- */
 public class ClientPessimisticUpdateTask implements Callable<ClientPessimisticUpdateTaskResult> {
 
     static Logger log = Logger.getLogger(ClientPessimisticUpdateTask.class);

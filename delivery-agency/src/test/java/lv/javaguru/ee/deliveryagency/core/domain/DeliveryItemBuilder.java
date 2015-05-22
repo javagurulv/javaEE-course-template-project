@@ -2,9 +2,6 @@ package lv.javaguru.ee.deliveryagency.core.domain;
 
 import java.math.BigDecimal;
 
-/**
- * Created by Viktor on 02/08/2014.
- */
 public class DeliveryItemBuilder {
 
     private Long deliveryItemId;

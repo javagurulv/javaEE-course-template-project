@@ -9,9 +9,6 @@ import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
-/**
- * Created by Viktor on 18/09/2014.
- */
 public class DeliveryResourceImpl implements DeliveryResource {
 
     private String baseWebServiceUrl;

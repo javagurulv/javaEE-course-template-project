@@ -16,9 +16,6 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-/**
- * Created by Viktor on 02/08/2014.
- */
 public class DeliveryItemDAOImplTest extends DatabaseHibernateTest {
 
     @Autowired

@@ -1,17 +1,14 @@
 package lv.javaguru.ee.deliveryagency.integrations.resourses;
 
+import lv.javaguru.ee.deliveryagency.integrations.RestException;
+import lv.javaguru.ee.deliveryagency.integrations.domain.ClientDTO;
+
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
-import lv.javaguru.ee.deliveryagency.integrations.RestException;
-import lv.javaguru.ee.deliveryagency.integrations.domain.ClientDTO;
-
-/**
- * Created by Viktor on 19/09/2014.
- */
 public class ClientResourceImpl implements ClientResource {
 
     private String baseWebServiceUrl;

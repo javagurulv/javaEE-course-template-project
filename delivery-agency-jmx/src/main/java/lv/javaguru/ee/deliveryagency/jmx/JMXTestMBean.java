@@ -7,9 +7,6 @@ import org.springframework.jmx.export.annotation.ManagedOperationParameters;
 import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by Viktor on 23/09/2014.
- */
 @Component
 @ManagedResource(objectName="DELIVERY-AGENCY.beans:name=JMXTestMBean",
         description="Delivery Agency Managed Bean (JMX)")

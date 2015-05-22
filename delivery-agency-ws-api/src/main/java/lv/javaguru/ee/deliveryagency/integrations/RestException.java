@@ -3,9 +3,6 @@ package lv.javaguru.ee.deliveryagency.integrations;
 import javax.ws.rs.ClientErrorException;
 import javax.ws.rs.core.Response;
 
-/**
- * Created by Viktor on 19/09/2014.
- */
 public class RestException extends RuntimeException {
 
     private Response.StatusType httpStatus;

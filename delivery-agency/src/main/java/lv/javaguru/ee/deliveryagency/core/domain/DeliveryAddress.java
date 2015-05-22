@@ -11,9 +11,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/**
- * Created by Viktor on 26/07/2014.
- */
 @Entity
 @Table(name="deliveryAddresses")
 public class DeliveryAddress {

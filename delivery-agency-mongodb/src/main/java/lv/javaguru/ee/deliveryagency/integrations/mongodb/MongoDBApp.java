@@ -12,9 +12,6 @@ import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by Viktor on 19/10/2014.
- */
 public class MongoDBApp {
 
     public static void main(String[] args) throws UnknownHostException {

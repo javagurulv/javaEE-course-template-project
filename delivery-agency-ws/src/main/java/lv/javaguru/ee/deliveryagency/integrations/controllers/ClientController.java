@@ -1,7 +1,10 @@
 package lv.javaguru.ee.deliveryagency.integrations.controllers;
 
-import javax.ws.rs.Produces;
-
+import lv.javaguru.ee.deliveryagency.core.CommandExecutor;
+import lv.javaguru.ee.deliveryagency.core.commands.client.*;
+import lv.javaguru.ee.deliveryagency.core.domain.Client;
+import lv.javaguru.ee.deliveryagency.integrations.domain.ClientDTO;
+import lv.javaguru.ee.deliveryagency.integrations.domain.builders.ClientDTOBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,22 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import lv.javaguru.ee.deliveryagency.core.CommandExecutor;
-import lv.javaguru.ee.deliveryagency.core.commands.client.CreateClientCommand;
-import lv.javaguru.ee.deliveryagency.core.commands.client.CreateClientResult;
-import lv.javaguru.ee.deliveryagency.core.commands.client.DeleteClientCommand;
-import lv.javaguru.ee.deliveryagency.core.commands.client.DeleteClientResult;
-import lv.javaguru.ee.deliveryagency.core.commands.client.GetClientCommand;
-import lv.javaguru.ee.deliveryagency.core.commands.client.GetClientResult;
-import lv.javaguru.ee.deliveryagency.core.commands.client.UpdateClientCommand;
-import lv.javaguru.ee.deliveryagency.core.commands.client.UpdateClientResult;
-import lv.javaguru.ee.deliveryagency.core.domain.Client;
-import lv.javaguru.ee.deliveryagency.integrations.domain.ClientDTO;
-import lv.javaguru.ee.deliveryagency.integrations.domain.builders.ClientDTOBuilder;
+import javax.ws.rs.Produces;
 
-/**
- * Created by Viktor on 16/09/2014.
- */
 @Controller
 @RequestMapping("/rest/delivery/{deliveryId}/client")
 public class ClientController {

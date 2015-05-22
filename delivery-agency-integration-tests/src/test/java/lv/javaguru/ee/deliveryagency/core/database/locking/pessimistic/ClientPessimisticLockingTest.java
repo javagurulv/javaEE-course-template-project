@@ -20,9 +20,6 @@ import java.util.concurrent.atomic.AtomicLong;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by Viktor on 06/09/2014.
- */
 public class ClientPessimisticLockingTest extends DatabaseHibernateTest {
 
     @Test

@@ -14,9 +14,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-/**
- * Created by Viktor on 05/10/2014.
- */
 public class DeleteClientTest extends EmbeddedJettyTest {
 
     private Long deliveryId;

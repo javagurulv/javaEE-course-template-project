@@ -10,9 +10,6 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-/**
- * Created by Viktor on 07/09/2014.
- */
 @Configuration
 public class HibernateConfig {
 

@@ -4,9 +4,6 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;
 
-/**
- * Created by Viktor on 15/09/2014.
- */
 public class SpringWebMvcInitializer extends AbstractDispatcherServletInitializer {
 
     @Override

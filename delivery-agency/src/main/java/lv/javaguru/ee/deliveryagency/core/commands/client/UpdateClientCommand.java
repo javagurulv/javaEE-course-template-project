@@ -2,9 +2,6 @@ package lv.javaguru.ee.deliveryagency.core.commands.client;
 
 import lv.javaguru.ee.deliveryagency.core.commands.DomainCommand;
 
-/**
- * Created by Viktor on 05/10/2014.
- */
 public class UpdateClientCommand implements DomainCommand<UpdateClientResult> {
 
     private Long deliveryId;
